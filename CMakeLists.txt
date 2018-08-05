@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.6)
+PROJECT (inih)
+
+SET (CMAKE_CXX_STANDARD 11)
+
+ADD_LIBRARY (inih
+	SHARED
+	ini.h
+	ini.c
+	cpp/INIReader.h
+	cpp/INIReader.cpp)
