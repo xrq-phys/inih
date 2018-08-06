@@ -9,3 +9,6 @@ ADD_LIBRARY (inih
 	ini.c
 	cpp/INIReader.h
 	cpp/INIReader.cpp)
+
+INSTALL (TARGETS inih DESTINATION lib)
+
