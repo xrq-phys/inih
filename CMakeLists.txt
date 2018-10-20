@@ -4,7 +4,7 @@ PROJECT (inih)
 SET (CMAKE_CXX_STANDARD 11)
 
 ADD_LIBRARY (inih
-	SHARED
+	STATIC
 	ini.h
 	ini.c
 	cpp/INIReader.h
